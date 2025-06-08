@@ -1,10 +1,14 @@
-name: 'Hello World'
-description: 'Greet someone'
+name: "Hello World kurnakovv"
+author: "kurnakovv"
+description: "Greet someone"
+branding:
+  icon: "bar-chart-2"
+  color: "purple"
 inputs:
   who-to-greet:
-    description: 'Who to greet'
+    description: "Who to greet"
     required: true
-    default: 'World'
+    default: "World"
 outputs:
   random-number:
     description: "Random number"
