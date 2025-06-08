@@ -49,3 +49,9 @@ runs:
       with:
         name: my-artifact
         path: path/to/artifact/world.txt
+
+    - name: Report message
+      uses: mshick/add-pr-comment@v2
+      with:
+        message: |
+          Hello!
